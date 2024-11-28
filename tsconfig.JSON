@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES6",
+        "outDir": "./ts-built",
+        "rootDir": "./script",
+        "strict": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "script"
+    ]
+}

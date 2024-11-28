@@ -1,0 +1,15 @@
+#test{
+    color: red;
+}
+.btn {
+    height: 60px;
+    font-size: 1.2rem;
+}
+.Calculator{
+    max-width: 350px;
+    width: 100%;
+}
+#display{
+    font-size: 1.5rem;
+    height: 60px;
+}
