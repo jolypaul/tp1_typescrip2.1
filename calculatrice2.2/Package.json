@@ -1,0 +1,11 @@
+{
+    "name": "calculatrice2.2",
+    "version": "1.0.0",
+    "main": "index.html",
+    "scripts": {
+        "start": "live-server"
+    },
+    "dependencies": {
+        "npm": "^1.0.3"
+    }
+}
