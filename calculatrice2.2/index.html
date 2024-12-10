@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Calculatrice2.2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Calculator">
+            <input type="text" id="display" class="display" disabled />
+            <div id="clock" class="clock"></div>
+            <div class="buttons">
+                <!-- Boutons -->
+                <button class="button" data-value="7">7</button>
+                <button class="button" data-value="8">8</button>
+                <button class="button" data-value="9">9</button>
+                <button class="button" data-value="/">/</button>
+    
+                <button class="button" data-value="4">4</button>
+                <button class="button" data-value="5">5</button>
+                <button class="button" data-value="6">6</button>
+                <button class="button" data-value="*">*</button>
+    
+                <button class="button" data-value="1">1</button>
+                <button class="button" data-value="2">2</button>
+                <button class="button" data-value="3">3</button>
+                <button class="button" data-value="-">-</button>
+    
+                <button class="button" data-value="0">0</button>
+                <button class="button" data-value=".">.</button>
+                <button class="button" data-value="+">+</button>
+                <button class="button" data-value="=" id="equals">=</button>
+                
+                <button class="button" data-value="reset">réinitialiser</button>
+                <button class="button" data-value="backspace">Effacer</button>
+                <button class="button" id="scientific">scientific</button>
+            </div>
+
+            <div id="section" class="buttons d-none" style="display: none;">
+                <!-- Boutons scientifiques -->
+                <button class="button" data-value="^">^</button>
+                <button class="button" data-value="!">!</button>
+                <button class="button" data-value="sqrt">√</button>
+                <button class="button" data-value="bin">Bin</button>
+                <button class="button" data-value="hex">Hex</button>
+                <button class="button" data-value="dec">Dec</button>
+                <button class="button" data-value="exp">Exp</button>
+                <button class="button" data-value="log">Log</button>
+                <button class="button" data-value="cos">Cos</button>
+                <button class="button" data-value="sin">Sin</button>
+                <button class="button" data-value="tan">Tan</button>
+                <button class="button" data-value="mod">Mod</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="ts-built/main.js"></script>
+</body>
+</html>
